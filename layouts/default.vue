@@ -1,6 +1,11 @@
 <template>
 	<div>
 		<Navbar />
+		<section class="container is-fullwidth">
+			<img
+				src="~/assets/images/bankitupfinal.jpeg"
+				alt="Jakub&Jakub from Ramojady Team">
+		</section>
 	</div>
 </template>
 
