@@ -1,14 +1,13 @@
 <template>
 	<nav class="navbar is-fullwidth is-mobile container">
 		<div
-			class="navbar-brand"
-			data-aos="fade-right"
-			data-aos-offset="300"
-			data-aos-easing="ease-in-sine">
-			<a class="navbar-item">
+			class="navbar-brand">
+			<a
+				class="navbar-item">
 				<img
 					src="~/assets/images/logo.png"
 					alt="Ramojady"
+					class="logo"
 				>
 			</a>
 			<div
@@ -29,46 +28,27 @@
 			<div class="navbar-end has-text-white">
 				<a
 					class="navbar-item"
-					href="#"
-					data-aos="fade-down"
-					data-aos-easing="linear"
-					data-aos-duration="1">
+					href="#">
 					Blog
 				</a>
 				<a
 					class="navbar-item"
-					href="#"
-					data-aos="fade-down"
-					data-aos-easing="linear"
-					data-aos-delay="50"
-					data-aos-duration="1">
+					href="#">
 					Services
 				</a>
 				<a
 					class="navbar-item"
-					href="#"
-					data-aos="fade-down"
-					data-aos-easing="linear"
-					data-aos-delay="100"
-					data-aos-duration="1">
+					href="#">
 					Portfolio
 				</a>
 				<a
 					class="navbar-item"
-					href="#"
-					data-aos="fade-down"
-					data-aos-easing="linear"
-					data-aos-delay="150"
-					data-aos-duration="1">
+					href="#">
 					Team
 				</a>
 				<a
 					class="navbar-item"
-					href="#"
-					data-aos="fade-down"
-					data-aos-easing="linear"
-					data-aos-delay="200"
-					data-aos-duration="1">
+					href="#">
 					Contact
 				</a>
 			</div>

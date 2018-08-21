@@ -1,0 +1,13 @@
+.navbar {
+
+	&-item:hover {
+		color: $black !important;
+		transition: background-color 150ms linear;
+	}
+
+	.logo:hover {
+		-webkit-transition: -webkit-filter 150ms linear;
+		transition: -webkit-filter 150ms linear;
+		filter: opacity(0.1) invert(100%);
+	}
+}

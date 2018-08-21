@@ -1,20 +1,21 @@
 <template>
 	<div>
 		<Navbar />
-		<section class="container is-fullwidth">
-			<img
-				src="~/assets/images/bankitupfinal.jpeg"
-				alt="Jakub&Jakub from Ramojady Team">
-		</section>
+		<Welcome />
+		<WhatWeDo />
 	</div>
 </template>
 
 <script>
 import Navbar from '~/components/Navbar'
+import Welcome from '~/components/Welcome'
+import WhatWeDo from '~/components/WhatWeDo'
 
 export default {
 	components: {
-		Navbar
+		Navbar,
+		Welcome,
+		WhatWeDo
 	}
 }
 </script>

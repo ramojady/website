@@ -1,0 +1,15 @@
+.what-we-do {
+	.column.is-centered {
+		@media screen and (min-width: 1023px) {
+			display: flex !important;
+			justify-content: center;
+		}
+	}
+
+	.title {
+
+		&-container {
+			text-align: center;
+		}
+	}
+}

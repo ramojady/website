@@ -1,0 +1,15 @@
+.welcome {
+	background: white;
+	padding-top: 10vw;
+
+	&-container {
+		max-width: 1000px;
+	}
+
+	.title {
+
+		&-container {
+			text-align: center;
+		}
+	}
+}

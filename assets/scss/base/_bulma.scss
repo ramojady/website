@@ -1,0 +1,14 @@
+.card {
+	border-radius: 0px;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+@media screen and (max-width: 1087px) {
+	.navbar-menu {
+		background-color: white;
+		-webkit-box-shadow: 0 1px 1px rgba(10, 10, 10, 0.1);
+		box-shadow: 0 1px 1px rgba(10, 10, 10, 0.1);
+		padding: 0.5rem 0;
+	}
+}

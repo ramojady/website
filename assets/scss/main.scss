@@ -1,11 +1,13 @@
+@import "./base/typography";
 @import "./base/bulma";
 @import "./base/colors";
-@import "./base/typography";
 @import "./base/general";
 
 @import "./animations/transitions";
 
-
 @import "./components/navbar";
+@import "./components/welcome";
+@import "./components/whatWeDo";
+@import "./components/card";
 
 @import "./helpers/spacing-helpers";

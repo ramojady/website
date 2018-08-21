@@ -1,0 +1,21 @@
+.card {
+	background: $primary;
+	padding: 10px;
+
+	@media screen and (min-width: 769px) {
+		word-spacing: 100vw;
+	}
+
+	@media screen and (min-width: 1023px) {
+		max-width: 300px;
+		height: 300px;
+	}
+
+	.title {
+		color: $white;
+	}
+
+	.description {
+		
+	}
+}

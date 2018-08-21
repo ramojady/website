@@ -1,3 +1,14 @@
 body {
-	font-family: "Montserrat", "Helvetica", "Roboto", sans-serif;
+	// font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+
+.main-color {
+	background: $white;
+	color: $black;
+}
+
+.opposite-color {
+	background: $black !important;
+	color: $white !important;
 }
