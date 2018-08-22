@@ -4,6 +4,7 @@
 		<Welcome />
 		<Services />
 		<History />
+		<MeetUs />
 	</div>
 </template>
 
@@ -12,13 +13,15 @@ import Navbar from '~/components/Navbar'
 import Welcome from '~/components/Welcome'
 import Services from '~/components/Services'
 import History from '~/components/History'
+import MeetUs from '~/components/MeetUs'
 
 export default {
 	components: {
 		Navbar,
 		Welcome,
 		Services,
-		History
+		History,
+		MeetUs
 	}
 }
 </script>

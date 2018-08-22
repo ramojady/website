@@ -19,8 +19,12 @@
 				data-aos-once="true">
 				Team Ramojady - Passionate about making perfect code.
 			</div>
-		</div>
-	</section>
+			<div class="columns is-centered">
+				<div class="column is-absolutely-centered">
+					<div class="scroll mouse"/>
+				</div>
+			</div>
+	</div></section>
 </template>
 
 <script>

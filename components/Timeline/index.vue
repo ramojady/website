@@ -4,7 +4,7 @@
 			<span class="tag is-medium is-primary">Journey begins</span>
 		</header>
 		<div class="timeline-item is-primary">
-			<div class="timeline-marker is-main-color is-icon">
+			<div class="timeline-marker is-primary is-main-color is-icon">
 				<i class="fas fa-university" />
 			</div>
 			<div class="timeline-content">
