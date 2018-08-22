@@ -1,12 +1,16 @@
 <template>
-	<div class="service-card is-absolutely-centered has-text-centered">
+	<div class="member-card is-absolutely-centered has-text-centered">
 		<div class="m-b-20">
 			<i
 				class="icon"
 				:class="[iconPrefix, iconSuffix]"/>
 		</div>
 		<div
-			class="card-title is-size-4 is-uppercase">
+			class="member-card-name is-size-5">
+			{{ name }}
+		</div>
+		<div
+			class="member-card-title is-size-6">
 			{{ title }}
 		</div>
 	</div>
@@ -14,12 +18,17 @@
 
 <script>
 export default {
-	name: 'ServiceCard',
+	name: 'MemberCard',
 	props: {
 		title: {
 			type: String,
 			required: true,
-			default: 'Create beautiful website'
+			default: 'Team Member'
+		},
+		name: {
+			type: String,
+			required: true,
+			default: 'Jan Kowalski'
 		},
 		iconPrefix: {
 			type: String,
@@ -29,7 +38,12 @@ export default {
 		iconSuffix: {
 			type: String,
 			required: true,
-			default: 'fa-brain'
+			default: 'fa-user'
+		},
+		description: {
+			type: String,
+			required: false,
+			default: 'Description'
 		}
 	}
 }

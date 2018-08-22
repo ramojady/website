@@ -15,15 +15,25 @@
 				data-aos="fade-up"
 				data-aos-duration="1000"
 				data-aos-once="true">
-				a
+				<MemberCard
+					:name="'Jędrzej Maczan'"
+					:title="'Makes things look beautiful'"
+					:icon-prefix="'fas'"
+					:icon-suffix="'fa-palette'"
+					:description="'Creative part of the Team'" />
 			</div>
 		</div>
 	</section>
 </template>
 
 <script>
+import MemberCard from '~/components/MemberCard'
+
 export default {
-	name: 'MeetUs'
+	name: 'MeetUs',
+	components: {
+		MemberCard
+	}
 }
 </script>
 

@@ -21,7 +21,13 @@
 			</div>
 			<div class="columns is-centered">
 				<div class="column is-absolutely-centered">
-					<div class="scroll mouse"/>
+					<div
+						class="scroll mouse"
+						data-aos="fade-zoom-in"
+						data-aos-easing="ease-in-back"
+						data-aos-delay="1000"
+						data-aos-offset="300"
+						data-aos-once="true"/>
 				</div>
 			</div>
 	</div></section>
