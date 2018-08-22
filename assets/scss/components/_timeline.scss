@@ -1,0 +1,45 @@
+.timeline {
+
+	.is-icon {
+		background-color: $primary !important;	
+	}
+
+	&-item::before {
+		background-color: $primary !important;	
+	}
+
+	.is-white-text {
+		color: $white;
+	}
+
+	.is-main-color {
+		background-color: $primary !important;
+
+		&.timeline-marker {
+			border: .1em solid $primary !important;
+		}
+	}
+
+	.tag {
+		&.is-primary {
+			background-color: $primary !important;
+		}
+	}
+
+	&-marker {
+		&.is-icon {
+			&.is-primary {
+				background-color: $primary !important;
+			}
+		}
+	}
+
+	.is-black {
+		background-color: $black !important;
+
+		&.timeline-marker {
+			border: .1em solid $black !important;
+		}
+	}
+
+}

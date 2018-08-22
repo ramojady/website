@@ -3,6 +3,7 @@
 		<Navbar />
 		<Welcome />
 		<Services />
+		<History />
 	</div>
 </template>
 
@@ -10,12 +11,14 @@
 import Navbar from '~/components/Navbar'
 import Welcome from '~/components/Welcome'
 import Services from '~/components/Services'
+import History from '~/components/History'
 
 export default {
 	components: {
 		Navbar,
 		Welcome,
-		Services
+		Services,
+		History
 	}
 }
 </script>

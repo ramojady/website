@@ -2,6 +2,7 @@
 @import "./base/bulma";
 @import "./base/colors";
 @import "./base/general";
+@import "./base/bulmaExtensions";
 
 @import "./animations/transitions";
 
@@ -9,5 +10,7 @@
 @import "./components/welcome";
 @import "./components/services";
 @import "./components/serviceCard";
+@import "./components/history";
+@import "./components/timeline";
 
 @import "./helpers/spacing-helpers";

@@ -27,6 +27,7 @@
     "aos": "^2.3.3",
     "bourbon": "^5.1.0",
     "buefy": "^0.6.6",
+    "bulma-timeline": "^3.0.0",
     "compass-mixins": "^0.12.10",
     "express": "^4.15.3",
     "node-bourbon": "^4.2.8",
