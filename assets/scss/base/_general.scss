@@ -12,3 +12,56 @@ body {
 	background: $black !important;
 	color: $white !important;
 }
+
+// @import "compass-mixins";
+// $main-color: #00B285;
+// .skewed-bg{
+// 	background: $main-color;
+// 	padding: 200px 0;
+// 	@include transform(skew(0deg, -10deg));
+// 	margin-top: -200px;  
+	
+// 	.content{
+// 	  @include transform(skew(0deg, 10deg));
+// 	  text-align: center;
+	  
+// 	  .title{
+// 		padding-top: 100px;
+// 		font-weight: normal;
+// 	  }
+	  
+// 	  .text{
+// 		width:60%;
+// 		margin: 25px auto;      
+// 		color: lighten($main-color, 55);
+// 	  }
+	  
+// 	} 
+//   }
+
+// @import '~bourbon/core/_bourbon';
+// $main-color: white;
+// .skewed-bg{
+
+// 	background: $main-color;
+// 	padding: 200px 0;
+// 	@include transform(skew(0deg, -10deg));
+// 	margin-top: -200px;  
+	
+// 	.content{
+// 	  @include transform(skew(0deg, 10deg));
+// 	  text-align: center;
+	  
+// 	  .title{
+// 		padding-top: 100px;
+// 		font-weight: normal;
+// 	  }
+	  
+// 	  .text{
+// 		width:60%;
+// 		margin: 25px auto;      
+// 		color: lighten($main-color, 55);
+// 	  }
+	  
+// 	} 
+//   }

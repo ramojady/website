@@ -1,56 +1,58 @@
 <template>
-	<nav class="navbar is-fullwidth is-mobile container">
-		<div
-			class="navbar-brand">
-			<a
-				class="navbar-item">
-				<img
-					src="~/assets/images/logo.png"
-					alt="Ramojady"
-					class="logo"
-				>
-			</a>
+	<nav class="navbar is-fullwidth is-mobile is-fixed-top">
+		<div class="container">
 			<div
-				class="navbar-burger burger"
-				data-target="navbarData"
-				@click="toggleMenu()">
-				<span/>
-				<span/>
-				<span/>
+				class="navbar-brand">
+				<a
+					class="navbar-item">
+					<img
+						src="~/assets/images/logo.png"
+						alt="Ramojady"
+						class="logo"
+					>
+				</a>
+				<div
+					class="navbar-burger burger"
+					data-target="navbarData"
+					@click="toggleMenu()">
+					<span/>
+					<span/>
+					<span/>
+				</div>
 			</div>
-		</div>
 
-		<div
-			id="navbarData"
-			class="navbar-menu"
-			:class="isActive ? 'is-active' : ''"
-		>
-			<div class="navbar-end has-text-white">
-				<a
-					class="navbar-item"
-					href="#">
-					Blog
-				</a>
-				<a
-					class="navbar-item"
-					href="#">
-					Services
-				</a>
-				<a
-					class="navbar-item"
-					href="#">
-					Portfolio
-				</a>
-				<a
-					class="navbar-item"
-					href="#">
-					Team
-				</a>
-				<a
-					class="navbar-item"
-					href="#">
-					Contact
-				</a>
+			<div
+				id="navbarData"
+				class="navbar-menu"
+				:class="isActive ? 'is-active' : ''"
+			>
+				<div class="navbar-end has-text-white">
+					<a
+						class="navbar-item"
+						href="#">
+						Blog
+					</a>
+					<a
+						class="navbar-item"
+						href="#">
+						Services
+					</a>
+					<a
+						class="navbar-item"
+						href="#">
+						Portfolio
+					</a>
+					<a
+						class="navbar-item"
+						href="#">
+						Team
+					</a>
+					<a
+						class="navbar-item"
+						href="#">
+						Contact
+					</a>
+				</div>
 			</div>
 		</div>
 	</nav>

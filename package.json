@@ -14,6 +14,9 @@
     "lint-fix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-brands-svg-icons": "^5.2.0",
     "@fortawesome/free-regular-svg-icons": "^5.2.0",
@@ -22,8 +25,11 @@
     "@nuxtjs/axios": "^5.0.0",
     "@nuxtjs/dotenv": "^1.1.1",
     "aos": "^2.3.3",
+    "bourbon": "^5.1.0",
     "buefy": "^0.6.6",
+    "compass-mixins": "^0.12.10",
     "express": "^4.15.3",
+    "node-bourbon": "^4.2.8",
     "nuxt": "^1.0.0",
     "nuxt-buefy": "^0.0.4",
     "nuxt-fontawesome": "^0.3.0"

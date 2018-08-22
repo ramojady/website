@@ -27,6 +27,9 @@ module.exports = {
 				href: // fonts
 					'https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800'
 			}
+		],
+		script: [
+			{ src: 'https://use.fontawesome.com/releases/v5.1.0/js/all.js' }
 		]
 	},
 
@@ -94,6 +97,11 @@ module.exports = {
 					exclude: /(node_modules)/
 				})
 			}
-		}
+		},
+		vendor: [
+			'@fortawesome/fontawesome',
+			'@fortawesome/fontawesome-free-solid',
+			'@fortawesome/fontawesome-free-brands'
+		]
 	}
 }

@@ -1,0 +1,23 @@
+.services {
+	padding-top: 10vw;
+	padding-bottom: 10vw;
+
+	.column.is-centered {
+		@media screen and (min-width: 1023px) {
+			display: flex !important;
+			justify-content: center !important;
+		}
+	}
+
+	.column.is-absolutely-centered {
+		display: flex !important;
+		justify-content: center !important;
+	}
+
+	.title {
+
+		&-container {
+			text-align: center;
+		}
+	}
+}
