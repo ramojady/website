@@ -24,7 +24,7 @@
 							:icon-prefix="'fas'"
 							:icon-suffix="'fa-desktop'"/>
 						<b-collapse :open.sync="isWebdevDescriptionOpenMobile">
-							<div class="column is-absolutely-centered service-card-description is-size-5">
+							<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
 								Do you love Internet? So we do! Our experienced team of web developers is opened for new challenges.
 							</div>
 						</b-collapse>
@@ -37,7 +37,7 @@
 							:icon-prefix="'fas'"
 							:icon-suffix="'fa-brain'"/>
 						<b-collapse :open.sync="isDataScienceDescriptionOpenMobile">
-							<div class="column is-absolutely-centered service-card-description is-size-5">
+							<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
 								Machine Learning, Deep Learning, Artificial Intelligence
 							</div>
 						</b-collapse>
@@ -50,24 +50,24 @@
 							:icon-prefix="'far'"
 							:icon-suffix="'fa-keyboard'"/>
 						<b-collapse :open.sync="isSoftwareDevelopmentDescriptionOpenMobile">
-							<div class="column is-absolutely-centered service-card-description is-size-5">
+							<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
 								We create software on demand.
 							</div>
 						</b-collapse>
 					</div>
 				</div>
 				<b-collapse :open.sync="isWebdevDescriptionOpen">
-					<div class="column is-absolutely-centered service-card-description is-size-5">
+					<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
 						Do you love Internet? So we do! Our experienced team of web developers is opened for new challenges.
 					</div>
 				</b-collapse>
 				<b-collapse :open.sync="isDataScienceDescriptionOpen">
-					<div class="column is-absolutely-centered service-card-description is-size-5">
+					<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
 						Machine Learning, Deep Learning, Artificial Intelligence
 					</div>
 				</b-collapse>
 				<b-collapse :open.sync="isSoftwareDevelopmentDescriptionOpen">
-					<div class="column is-absolutely-centered service-card-description is-size-5">
+					<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
 						We create software on demand.
 					</div>
 				</b-collapse>

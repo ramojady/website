@@ -5,6 +5,7 @@
 		<Services />
 		<History />
 		<MeetUs />
+		<Contact />
 	</div>
 </template>
 
@@ -14,6 +15,7 @@ import Welcome from '~/components/Welcome'
 import Services from '~/components/Services'
 import History from '~/components/History'
 import MeetUs from '~/components/MeetUs'
+import Contact from '~/components/Contact'
 
 export default {
 	components: {
@@ -21,7 +23,8 @@ export default {
 		Welcome,
 		Services,
 		History,
-		MeetUs
+		MeetUs,
+		Contact
 	}
 }
 </script>

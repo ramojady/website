@@ -1,0 +1,27 @@
+.contact {
+	padding-top: 10vw;
+	padding-bottom: 10vw;
+
+	.title {
+		&-container {
+			text-align: center;
+		}
+	}
+
+	.mail {
+		&-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+
+		&-icon {
+			font-size: 100px;
+		}
+
+		&-address {
+			margin-left: 3vw;
+		}
+	}
+}
