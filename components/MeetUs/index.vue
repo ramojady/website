@@ -20,12 +20,12 @@
 					class="column is-centered">
 					<MemberCard
 						:name="'Jakub Cwynar'"
-						:title="'Awesome Data Scientist and Developer'"
+						:title="'The Handyman'"
 						:icon-prefix="'fas'"
 						:icon-suffix="'fa-user-ninja'"/>
 					<b-collapse :open.sync="isJakubCDescriptionOpenMobile">
 						<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
-							Machine Learning developer, data scientist, half man half python.
+							Started hacking when he was 5. Loves trains. Expert of the hipster part of YouTube. Theoretically a Data Scientist but when an issue pops out it turns out he knows the whole stack and has already seen it somewhere... Specializes in Machine Learning. Half man, half Python.
 						</div>
 					</b-collapse>
 				</div>
@@ -34,7 +34,7 @@
 					class="column is-centered">
 					<MemberCard
 						:name="'Piotr Grzybowski'"
-						:title="'Awesome Data Scientist and Developer'"
+						:title="'The Alpha Brain'"
 						:icon-prefix="'fas'"
 						:icon-suffix="'fa-user-tie'"/>
 					<b-collapse :open.sync="isPiotrDescriptionOpenMobile">
@@ -62,12 +62,12 @@
 					class="column is-centered">
 					<MemberCard
 						:name="'Jędrzej Maczan'"
-						:title="'Makes things look beautiful'"
+						:title="'The Undercover Artist'"
 						:icon-prefix="'fas'"
 						:icon-suffix="'fa-palette'"/>
 					<b-collapse :open.sync="isJedrzejDescriptionOpenMobile">
 						<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
-							Frontend developer, responsible for visual aspect of projects.
+							Losing his dreadlocks uncovered the Artist beneath. He converted from backend to frontend overnight and rocked it. A Scout at heart, always watching and offering a shoulder to cry on. A pretty nice, strong shoulder.
 						</div>
 					</b-collapse>
 				</div>
@@ -76,7 +76,7 @@
 					class="column is-centered">
 					<MemberCard
 						:name="'Jakub Michałowski'"
-						:title="'Awesome Data Scientist and Developer'"
+						:title="'The Joker'"
 						:icon-prefix="'fas'"
 						:icon-suffix="'fa-user-astronaut'" />
 					<b-collapse :open.sync="isJakubMDescriptionOpenMobile">
@@ -89,12 +89,12 @@
 			</div>
 			<b-collapse :open.sync="isJedrzejDescriptionOpen">
 				<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
-					Frontend developer, responsible for visual aspect of projects.
+					Losing his dreadlocks uncovered the Artist beneath. He converted from backend to frontend overnight and rocked it. A Scout at heart, always watching and firing us up. Produces more code lines per minute than he bench presses and knows it like he knows his calories.
 				</div>
 			</b-collapse>
 			<b-collapse :open.sync="isPiotrDescriptionOpen">
 				<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
-					Machine Learning developer, responsible for all Artificial Intelligence things.
+					Could probably do better at being Andrew Ng than Andrew Ng, but he's not Asian. Reinforcement Learning aficionado. When you hear him say it's time to chill you might doubt your understanding of the word. The 'push or don't sleep' type. Can trek for 50 hours straight.
 				</div>
 			</b-collapse>
 			<b-collapse :open.sync="isEwaDescriptionOpen">
@@ -104,12 +104,12 @@
 			</b-collapse>
 			<b-collapse :open.sync="isJakubMDescriptionOpen">
 				<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
-					Machine Learning developer, data scientist, half man half python.
+					Transforms from a basement nerd into a top marketing specialist upon a haircut. Will make you sell your kidney for a penny. Both of them. With a smile on your face. In the Basement mode he's a Data Scientist with ideas as wild as his hair before the haircut.
 				</div>
 			</b-collapse>
 			<b-collapse :open.sync="isJakubCDescriptionOpen">
 				<div class="column is-absolutely-centered service-card-description is-size-5 main-color">
-					Machine Learning developer, data scientist, half man half python.
+					Started hacking when he was 5. Loves trains. Expert of the hipster part of YouTube. Theoretically a Data Scientist but when an issue pops out it turns out he knows the whole stack and has already seen it. Specializes in Machine Learning. They say he's a half man, half Python. Haven't checked.
 				</div>
 			</b-collapse>
 		</div>
